@@ -2,13 +2,13 @@ import React from 'react';
 
 import Card from '../UI/Card';
 
-import styles from '../../styles/components/meetups/MeetupItem.modules.css';
+import styles from '../../styles/components/meetups/MeetupItem.module.css';
 
 function MeetupItem(props) {
 	return (
 		<li className={styles.item}>
 			<Card>
-				<div className={styles.item}>
+				<div className={styles.image}>
 					<img src={props.image} alt={props.title} />
 				</div>
 				<div className={styles.content}>

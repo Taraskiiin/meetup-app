@@ -1,8 +1,14 @@
 import React from 'react';
-import styles from '../../styles/components/layout/MainNavigation.module.css';
+import MainNavigation from './MainNavigation';
+import styles from '../../styles/components/layout/Layout.module.css';
 
-function Layout() {
-	return <></>;
+function Layout(props) {
+	return (
+		<div>
+			<MainNavigation />
+			<div className={styles.main}>{props.children}</div>
+		</div>
+	);
 }
 
 export default Layout;

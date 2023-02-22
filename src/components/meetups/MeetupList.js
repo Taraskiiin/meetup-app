@@ -2,7 +2,7 @@ import React from 'react';
 
 import MeetupItem from './MeetupItem';
 
-import styles from '../../styles/components/meetups/MeetupList/MeetupList.modules.css';
+import styles from '../../styles/components/meetups/MeetupList.module.css';
 
 function MeetupList(props) {
 	return (

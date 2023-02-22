@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../../styles/components/UI/Card.modules.css';
+import styles from '../../styles/components/UI/Card.module.css';
 
 function Card(props) {
-	return <din className={styles.card}>{props.children}</din>;
+	return <div className={styles.card}>{props.children}</div>;
 }
 
 export default Card;
