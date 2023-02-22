@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Todo from '../components/Todo';
+import Todo from '../components/Todos/Todo';
+import '../components/Todos/Todos.css';
 
 function TodoPage() {
 	return (
