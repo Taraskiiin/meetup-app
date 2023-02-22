@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Todo from '../components/Todos/Todo';
-import '../components/Todos/Todos.css';
+import '../styles/components/todos/Todos.css';
 
 function TodoPage() {
 	return (
