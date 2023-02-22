@@ -144,3 +144,8 @@ template {
 [hidden] {
 	display: none;
 }
+
+.app {
+	max-width: 100vw;
+	overflow: hidden;
+}
