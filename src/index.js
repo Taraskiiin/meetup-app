@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './styles/index.css';
 
 import App from './App';
-import { FavoritesContextProvider } from './components/store/favoriteContext';
+import { FavoritesContextProvider } from './store/favoriteContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
