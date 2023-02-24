@@ -1,1 +1,1 @@
-# follow to deploy: https://taraskiiin.github.io/meetup-app/
+follow link: https://taraskiiin.github.io/meetup-app/
